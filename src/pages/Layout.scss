@@ -1,0 +1,13 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .content {
+    margin: 2em;
+    box-sizing: content-box;
+    overflow: auto;
+    height: 95%;
+  }
+}
